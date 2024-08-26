@@ -1,15 +1,13 @@
-import React from 'react'
+import React from "react";
 
-export const Card = ({userData}) => {
+export const Card = ({ dataFieds }) => {
   return (
-    <h1 className="text-3xl font-bold ">
+    <h1 className="text-2xl font-bold list-none">
       <div className="card">
-        {userData.map((id,title)=>{
-            <li key={id}>
-                {title}
-            </li>
-        })}
+        {dataFieds.map(({ id, title }) => (
+          <li key={id}>{title}</li>
+        ))}
       </div>
     </h1>
-  )
-}
+  );
+};

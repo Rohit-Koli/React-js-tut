@@ -16,7 +16,7 @@ function App() {
           throw new Error('Data is Not Fetched !')
         }
         const data=await x.json()
-        SetUserData(data.data);
+        SetUserData(data);
       } catch (error) {
         console.error(error);
       }
