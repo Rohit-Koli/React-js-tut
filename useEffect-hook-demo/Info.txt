@@ -1,0 +1,4 @@
+Use Effect Hook :
+    TO use and Store data from the database 
+
+    Run the component in screen

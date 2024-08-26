@@ -1,0 +1,5 @@
+What is Re -rendering :
+    Page reload whenever State variable change then it re renders 
+
+Conditional Rendering :
+    

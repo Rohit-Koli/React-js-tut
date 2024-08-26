@@ -1,0 +1,12 @@
+Hooks :
+    Hooks are just like a functions 
+
+    Example :
+    const [count, setCount] = useState(1000)
+
+    return (
+    <>
+      <div>The Count is {count}</div>
+      <button onClick={()=>{setCount(count+1)}}>Count + 1</button><br/>
+      <button onClick={()=>{setCount(count-1)}}>Count - 1 </button>
+    </>
